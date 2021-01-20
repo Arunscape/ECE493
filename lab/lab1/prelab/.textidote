@@ -1,0 +1,2 @@
+--output html
+--check en_CA report.tex

@@ -1,0 +1,28 @@
+#+AUTHOR: Arun Woosaree
+
+* TODO Stuff
+** DONE Email prof that you understand the course policies
+** DONE Join the slack
+** DONE Email prof and cc lab instructor prelab 1
+** DONE CATME Survey
+*** https://www.catme.org
+*** Activity: Team Formation
+*** Course: ECE 493
+* I am in team 7
+** Lab 1
+Your group mates are:
+ - Michael
+ - Joshua Chang
+*** Create a story with:
+- start
+  + igloo
+  + chimney
+  + stethoscope
+- middle
+  + watermelon
+  + lamp
+  + apple
+- end
+  + wolf
+  + chicken
+  + snowman
