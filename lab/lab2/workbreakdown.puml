@@ -1,0 +1,88 @@
+@startwbs
+* Conference Management System (CMS)
+
+** 1 User Registration
+*** 1.1 Request Registration (FR1)
+**** 1.1.1 Create registration form UI
+**** 1.1.2 Redirect user to registration form
+**** 1.1.3 Verify user input in form\n(verify email is unique and password follows security standards.\nIf not, show error message)
+**** 1.1.4 Store user email and password in database
+**** 1.1.5 Redirect user to login screen
+
+
+** 2 User login
+*** 2.1 Request Login (FR2)
+**** 2.1.1 Create UI for entering username and password
+**** 2.1.2 Compare username and password to database and provide or deny access.
+**** 2.1.3 Redirect user to home page
+
+*** 2.2 Change Password (FR3)
+**** 2.2.1 Create UI for user to change password
+**** 2.2.2 Confirm old password
+**** 2.2.3 Update password in database
+
+** 3 Paper Submission
+*** 3.1 Request Submission (FR4)
+**** 3.1.1 Ensure user is registered and logged in
+**** 3.1.2 Create UI for submitting manuscripts
+**** 3.1.3 Validate fields in form, ensure they follow system rules\n(e.g. email addresses, blanks, valid file formats, file size)\nand show success or error message
+**** 3.1.4 Store information in database
+**** 3.1.5 Redirect user to home page
+
+*** 3.2 Save Submission
+**** 3.2.1 Create save button interface
+**** 3.2.2 Check fields for validity and inform user of violation
+**** 3.3.3 Save information of a paper
+
+
+** 4 Referee Assignment
+*** 4.1 Assign Referee (FR6)
+**** 4.1.1 Create UI for editor to assign referees to submitted papers\nusing referees' email addresses
+**** 4.1.2 Validate form, display success or error message (e.g. 3 reviewers)
+**** 4.1.3 Check if reviewer has more than 5 assigned papers
+**** 4.1.4 Notify referee of assignment in form of a review invitation
+
+*** 4.2 Save Referee (FR7)
+**** 4.2.1 When referee accepts, put the paper under the referee's account\nif less than 3 referees are already reviewing\nelse inform editor
+**** 4.2.2 Redirect referee to account, where paper is stored under
+
+
+** 5 Reviewing Paper
+*** 5.1 Paper Evaluation (FR8)
+**** 5.1.1 Create UI for referee selecting review action
+**** 5.1.2 Create review form UI
+**** 5.1.3 Check if all fields in the form are valid\n (e.g.no invalid characters or blanks)
+**** 5.1.4 Save form to database
+**** 5.1.5 Send form to editor
+
+*** 5.2 Make Decision (FR9)
+**** 5.2.1 Check if all review forms are ready
+**** 5.2.2 Allow editor to make final decision
+**** 5.2.3 Send editor's decision to author
+**** 5.2.4 Save editor's decision to database
+
+
+** 6 Scheduling
+*** 6.1 Make Schedule (FR10)
+**** 6.1.1 Implement scheduling algorithm X
+**** 6.1.2 Convert schedule to HTML format
+**** 6.1.3 Send schedule to editor to be checked or modified
+**** 6.1.4 Announce schedule on CMS webpage
+**** 6.1.5 Send schedule to authors of accepted papers
+
+*** 6.2 Edit Schedule (FR11)
+**** 6.2.1 Create UI for editing schedule
+**** 6.2.2 Update database with new schedule as final version
+
+
+** 7 Conference Registration
+*** 7.1 Pay Attendance (FR12)
+**** 7.1.1 Announce prices on CMS web page\n(available to guests and authorized users)
+**** 7.1.2 Check if user is authorized
+**** 7.1.3 Create UI to prompt user to pay for attending and choose registration type
+**** 7.1.4 Verify payment information
+**** 7.1.5 Store payment information
+**** 7.1.6 Charge user's credit card
+**** 7.1.7 Send user confirmation of purchase and ticket
+
+@endwbs
