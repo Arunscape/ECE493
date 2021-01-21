@@ -20,6 +20,7 @@
 **** 2.2.1 Create UI for user to change password
 **** 2.2.2 Confirm old password
 **** 2.2.3 Update password in database
+**** 2.2.4 Redirect user to login page\n(so they can log in with the new password)
 
 ** 3 Paper Submission
 *** 3.1 Request Submission (FR4)
