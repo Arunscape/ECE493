@@ -83,6 +83,7 @@ ss -- sys
 #+begin_src plantuml :file usecase.svg
 @startuml
 left to right direction
+skinparam linetype  polyline
 actor "new user" as nu
 actor "authorized user" as auth
 actor administrator as ad
@@ -91,10 +92,11 @@ actor referee as ref
 actor author as au
 actor system as sys
 
-ad -|> auth
-ed -|> auth
-ref -|> auth
-author -|> auth
+
+ad -left-|> auth
+ed -left-|> auth
+ref -left-|> auth
+author -left-|> auth
 
 actor "guest user" as gu
 rectangle "Content Management System (CMS)" {
@@ -139,7 +141,8 @@ cp -= sys
 au -- submit
 
 '5' 
-au <. ss : extends
+au -- ss
+ss -- sys
 
 '6'
 ed -- ar
@@ -175,9 +178,8 @@ au -- pay
 pay -- sys
 sys -- st
 
-''
 
-au -- v
+auth -- v
 gu -- v
 
 @enduml
