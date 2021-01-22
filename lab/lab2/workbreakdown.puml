@@ -30,7 +30,7 @@
 **** 3.1.4 Store information in database
 **** 3.1.5 Redirect user to home page
 
-*** 3.2 Save Submission
+*** 3.2 Save Submission (FR5)
 **** 3.2.1 Create save button interface
 **** 3.2.2 Check fields for validity and inform user of violation
 **** 3.2.3 Save information of paper in database
@@ -59,8 +59,8 @@
 *** 5.2 Make Decision (FR9)
 **** 5.2.1 Check if all review forms are ready
 **** 5.2.2 Allow editor to make final decision
-**** 5.2.3 Send editor's decision to author
-**** 5.2.4 Save editor's decision to database
+**** 5.2.3 Save editor's decision to database
+**** 5.2.4 Send editor's decision to author
 
 
 ** 6 Scheduling
