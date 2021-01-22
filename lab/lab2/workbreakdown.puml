@@ -33,7 +33,7 @@
 *** 3.2 Save Submission
 **** 3.2.1 Create save button interface
 **** 3.2.2 Check fields for validity and inform user of violation
-**** 3.3.3 Save information of a paper
+**** 3.2.3 Save information of paper in database
 
 
 ** 4 Referee Assignment
@@ -72,7 +72,7 @@
 **** 6.1.5 Send schedule to authors of accepted papers
 
 *** 6.2 Edit Schedule (FR11)
-**** 6.2.1 Create UI for editing schedule
+**** 6.2.1 Create UI for editor/admin to edit schedule
 **** 6.2.2 Update database with new schedule as final version
 
 
@@ -82,7 +82,7 @@
 **** 7.1.2 Check if user is authorized
 **** 7.1.3 Create UI to prompt user to pay for attending and choose registration type
 **** 7.1.4 Verify payment information
-**** 7.1.5 Store payment information
+**** 7.1.5 Store payment information in database
 **** 7.1.6 Charge user's credit card
 **** 7.1.7 Send user confirmation of purchase and ticket
 
