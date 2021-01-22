@@ -1,238 +1,285 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1605px" preserveAspectRatio="none" style="width:577px;height:1605px;" version="1.1" viewBox="0 0 577 1605" width="577px" zoomAndPan="magnify"><defs><filter height="300%" id="fha3jfvawahyq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[dce152449a59020d305e264c9b8346f3]
-cluster Content Management System (CMS)--><rect fill="#FFFFFF" filter="url(#fha3jfvawahyq)" height="1586" style="stroke:#000000;stroke-width:1.5;" width="262" x="216" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="246" x="224" y="22.0059">Content Management System (CMS)</text><ellipse cx="346.552" cy="1162.0104" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="100.552" ry="22.5104" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="263.3029" y="1165.1398">request registration (FR1)</text><ellipse cx="346.3847" cy="57.8236" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="63.8847" ry="15.3236" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="307.8847" y="61.5766">login (FR2)</text><ellipse cx="346.7357" cy="147.0471" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="95.7357" ry="21.5471" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="267.7642" y="150.6241">change password (FR3)</text><ellipse cx="346.552" cy="1554.0104" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="100.552" ry="22.5104" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="263.3029" y="1557.1398">request submission (FR4)</text><ellipse cx="346.7475" cy="1240.9495" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="92.7475" ry="20.9495" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="270.7475" y="1244.7025">save submission (FR5)</text><ellipse cx="346.5876" cy="619.1175" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="73.5876" ry="17.1175" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="294.5876" y="622.8705">assign referees</text><ellipse cx="346.4409" cy="222.8882" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="82.4409" ry="18.8882" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="282.9409" y="226.6412">save referee (FR7)</text><ellipse cx="346.5547" cy="478.1109" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="88.5547" ry="20.1109" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="275.5547" y="481.8639">evaluate paper (FR8)</text><ellipse cx="346.4024" cy="1008.7805" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="86.9024" ry="19.7805" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="277.4024" y="1012.5334">make decision (FR9)</text><ellipse cx="346.3245" cy="786.8649" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="92.3245" ry="20.8649" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="270.8245" y="790.6179">make schedule (FR10)</text><ellipse cx="346.314" cy="1083.8628" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="87.314" ry="19.8628" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="276.814" y="1087.6158">edit schedule (FR11)</text><ellipse cx="346.6713" cy="1318.0343" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="93.1713" ry="21.0343" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="270.1713" y="1321.7872">pay attendance (FR12)</text><ellipse cx="346.5485" cy="935.2097" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="84.0485" ry="19.2097" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="281.0485" y="938.9627">visit CMS web page</text><ellipse cx="346.687" cy="1397.1374" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="103.687" ry="23.1374" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="260.6541" y="1399.9756">view assigned review tasks</text><ellipse cx="346.3036" cy="1475.8607" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="89.8036" ry="20.3607" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="273.8036" y="1479.6137">manage referee tasks</text><ellipse cx="346.6084" cy="315.9217" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="100.1084" ry="22.4217" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="263.7532" y="319.0923">accept invitation to review</text><ellipse cx="346.6398" cy="389.828" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="69.6398" ry="16.328" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="300.1398" y="393.5809">send to editor</text><ellipse cx="346.4077" cy="550.1815" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="71.4077" ry="16.6815" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="297.4077" y="553.9345">send to author</text><ellipse cx="346.7357" cy="693.0471" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="95.7357" ry="21.5471" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="267.7642" y="696.6241">send schedule to author</text><ellipse cx="346.4571" cy="861.9914" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="80.4571" ry="18.4914" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="285.4571" y="865.7444">send ticket to user</text><!--MD5=[af7dc270c177ac064d9ce5d19439ad48]
-entity nu--><ellipse cx="70.5" cy="1130.5" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M70.5,1138.5 L70.5,1165.5 M57.5,1146.5 L83.5,1146.5 M70.5,1165.5 L57.5,1180.5 M70.5,1165.5 L83.5,1180.5 " fill="none" filter="url(#fha3jfvawahyq)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="41.5" y="1199.0059">new user</text><!--MD5=[e29493a8775effcafa538aa0485107d1]
-entity auth--><ellipse cx="70.5" cy="354.5" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M70.5,362.5 L70.5,389.5 M57.5,370.5 L83.5,370.5 M70.5,389.5 L57.5,404.5 M70.5,389.5 L83.5,404.5 " fill="none" filter="url(#fha3jfvawahyq)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="21" y="423.0059">authorized user</text><!--MD5=[a2a1127a9e0c3d5a4af797120761d109]
-entity ad--><ellipse cx="70.5" cy="849.5" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M70.5,857.5 L70.5,884.5 M57.5,865.5 L83.5,865.5 M70.5,884.5 L57.5,899.5 M70.5,884.5 L83.5,899.5 " fill="none" filter="url(#fha3jfvawahyq)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="29" y="918.0059">administrator</text><!--MD5=[9ecb3888956f26bb589e19d843f9ffbb]
-entity ed--><ellipse cx="70.5" cy="969.5" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M70.5,977.5 L70.5,1004.5 M57.5,985.5 L83.5,985.5 M70.5,1004.5 L57.5,1019.5 M70.5,1004.5 L83.5,1019.5 " fill="none" filter="url(#fha3jfvawahyq)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="52.5" y="1038.0059">editor</text><!--MD5=[6a66ad4cd3e5cd24129b6fd8af5c5a1e]
-entity ref--><ellipse cx="70.5" cy="471.5" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M70.5,479.5 L70.5,506.5 M57.5,487.5 L83.5,487.5 M70.5,506.5 L57.5,521.5 M70.5,506.5 L83.5,521.5 " fill="none" filter="url(#fha3jfvawahyq)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="47.5" y="540.0059">referee</text><!--MD5=[e1532afab819f384a6963ac657a68e1b]
-entity au--><ellipse cx="70.5" cy="1286.5" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M70.5,1294.5 L70.5,1321.5 M57.5,1302.5 L83.5,1302.5 M70.5,1321.5 L57.5,1336.5 M70.5,1321.5 L83.5,1336.5 " fill="none" filter="url(#fha3jfvawahyq)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="50" y="1355.0059">author</text><!--MD5=[ef2f3d6815c792d082a7c132eb1ade2f]
-entity sys--><ellipse cx="547.5" cy="793.5" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M547.5,801.5 L547.5,828.5 M534.5,809.5 L560.5,809.5 M547.5,828.5 L534.5,843.5 M547.5,828.5 L560.5,843.5 " fill="none" filter="url(#fha3jfvawahyq)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="525" y="862.0059">system</text><!--MD5=[2d3c5e0b954a749fced3fb92086cf371]
-entity author--><ellipse cx="70.5" cy="588.5" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M70.5,596.5 L70.5,623.5 M57.5,604.5 L83.5,604.5 M70.5,623.5 L57.5,638.5 M70.5,623.5 L83.5,638.5 " fill="none" filter="url(#fha3jfvawahyq)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="50" y="657.0059">author</text><!--MD5=[68ce7f9e5d6db1da1ccd8e8853009585]
-entity gu--><ellipse cx="70.5" cy="732.5" fill="#FEFECE" filter="url(#fha3jfvawahyq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M70.5,740.5 L70.5,767.5 M57.5,748.5 L83.5,748.5 M70.5,767.5 L57.5,782.5 M70.5,767.5 L83.5,782.5 " fill="none" filter="url(#fha3jfvawahyq)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="37" y="801.0059">guest user</text><!--MD5=[a256ddcc105a8992fc8a35595ccffa22]
-reverse link auth to ad--><path d="M22.09,442.67 C12.85,453.48 6,461.5 6,461.5 C6,461.5 6,804.5 6,804.5 C6,804.5 20.41,821.59 35.61,839.62 " fill="none" id="auth-backto-ad" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="16.92,437.94,35.23,427.28,27.56,447.04,16.92,437.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[dd9cd6f9f69522a481ccf80374ddacc8]
-reverse link auth to ed--><path d="M22.09,442.67 C12.85,453.48 6,461.5 6,461.5 C6,461.5 6,921.5 6,921.5 C6,921.5 33.12,954.93 52.19,978.43 " fill="none" id="auth-backto-ed" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="16.92,437.94,35.23,427.28,27.56,447.04,16.92,437.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d60ac93ac15ff8d1dcf0cf91dba360b7]
-reverse link auth to ref--><path d="M70.5,447.62 C70.5,453.52 70.5,459.02 70.5,461.9 " fill="none" id="auth-backto-ref" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="63.5,447.3,70.5,427.3,77.5,447.3,63.5,447.3" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c9a0103ef95b473936a9ae62889f6509]
-reverse link auth to author--><path d="M22.09,442.67 C12.85,453.48 6,461.5 6,461.5 C6,461.5 6,543.5 6,543.5 C6,543.5 30.88,573.01 49.74,595.37 " fill="none" id="auth-backto-author" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="16.92,437.94,35.23,427.28,27.56,447.04,16.92,437.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9cd02b5a55e0b5d8ccc4c7a5e4cfef40]
-link nu to rr--><path d="M99.54,1162 C133.84,1162 193.79,1162 245.91,1162 " fill="none" id="nu-rr" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1b370f963102bb73f6cda744c4daf23a]
-link rr to sys--><path d="M407.85,1144.14 C445.17,1133.09 486,1121 486,1121 C486,1121 521.46,947.49 538.09,866.16 " fill="none" id="rr-sys" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c3c3d5c6e7bbd2ee87e44856ec0403f9]
-link auth to login--><path d="M91.64,344.98 C129.61,267.65 208,108 208,108 C208,108 269.35,85.69 310.09,70.88 " fill="none" id="auth-login" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c601586daf1ff9f0392dda66ee07f89b]
-link cp to login--><path d="M346.5,125.46 C346.5,111.38 346.5,93.08 346.5,79.09 " fill="none" id="cp-to-login" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="346.5,73.77,342.5,82.77,346.5,78.77,350.5,82.77,346.5,73.77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="312" y="104.077">extends</text><!--MD5=[376cd954ca9f45aee80387c87319fa6b]
-link cp to sys--><path d="M407.04,163.77 C444.58,174.34 486,186 486,186 C486,186 529.17,641.97 542.58,783.57 " fill="none" id="cp-sys" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[7c522c50f5703b0b72d911a2a6ad4ec9]
-link au to submit--><path d="M91.06,1346.08 C128.8,1400.28 208,1514 208,1514 C208,1514 247.67,1525.54 284.39,1536.22 " fill="none" id="au-submit" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[04cca3c1c9a7b33f206844e3e1ccd8bd]
-link au to ss--><path d="M91.31,1311.44 C114.56,1303.74 150,1292 150,1292 C150,1292 227.57,1271.77 284.98,1256.79 " fill="none" id="au-ss" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2cc3f695fe8118def67c41fcb1b7957a]
-link ss to sys--><path d="M405.43,1224.69 C443.39,1214 486,1202 486,1202 C486,1202 524.23,963.77 539.91,866.06 " fill="none" id="ss-sys" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[66b5fe09ca82934201e6c23be87a67ca]
-link ed to ar--><path d="M88.74,978.97 C102.68,961.15 120,939 120,939 C120,939 150,696 150,696 C150,696 208,654 208,654 C208,654 256.79,641.58 296.25,631.54 " fill="none" id="ed-ar" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[32c80b6c17c1087d73075ee2d42f3959]
-link ad to ar--><path d="M105.45,839.7 C113.6,829.79 120,822 120,822 C120,822 150,648 150,648 C150,648 226.85,636.6 284.18,628.1 " fill="none" id="ad-ar" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[82446069b66b49e11c44f2ad58bfbe03]
-link ref to air--><path d="M93.73,479.05 C132.41,437.4 208,356 208,356 C208,356 247.67,344.46 284.39,333.78 " fill="none" id="ref-air" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e26ca232e6e6054d2e31764e13f5dd5a]
-link air to sr--><path d="M346.5,293.49 C346.5,279.51 346.5,261.54 346.5,247.25 " fill="none" id="air-to-sr" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="346.5,242.16,342.5,251.16,346.5,247.16,350.5,251.16,346.5,242.16" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="311" y="272.327">includes</text><!--MD5=[a288c1c7b3bf4ccac5be4de3e6ef37d0]
-link sr to sys--><path d="M389.81,239.19 C430.54,254.78 486,276 486,276 C486,276 527.88,656.06 541.95,783.74 " fill="none" id="sr-sys" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ae84fb110eb86438eeb1beebacaff9b4]
-link ref to ep--><path d="M93.92,500.95 C130.67,497.6 205.47,490.78 264.01,485.44 " fill="none" id="ref-ep" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a4209a35e848f03579b3a9c49b14e9be]
-link ep to ste--><path d="M346.5,457.59 C346.5,443.96 346.5,426.05 346.5,412.09 " fill="none" id="ep-to-ste" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="346.5,406.76,342.5,415.76,346.5,411.76,350.5,415.76,346.5,406.76" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="311" y="436.827">includes</text><!--MD5=[5f3dd7fe5fd37f26266c057596f65a29]
-link ste to sys--><path d="M385.71,403.8 C426.71,418.59 486,440 486,440 C486,440 524.42,684.48 540.03,783.8 " fill="none" id="ste-sys" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d56fa1dbd9ab95bef9d109985b20be70]
-link ed to md--><path d="M88.64,1001.5 C122.32,1002.48 199.17,1004.73 260.08,1006.51 " fill="none" id="ed-md" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6b5b5e6a7432f6c9a598b8e7f6dd6e61]
-link ad to md--><path d="M112.08,907.76 C152.32,934.29 208,971 208,971 C208,971 251.81,983.11 289.97,993.65 " fill="none" id="ad-md" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6c4933bff4f100607f6aa6b2403d4bd0]
-link md to sta--><path d="M290.57,993.65 C252.13,983.11 208,971 208,971 C208,971 178,715.5 178,715.5 C178,715.5 178,698.5 178,698.5 C178,698.5 208,584 208,584 C208,584 253.31,572.88 292.1,563.35 " fill="none" id="md-to-sta" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="297.28,562.08,287.5869,560.3351,292.4234,563.2691,289.4895,568.1056,297.28,562.08" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="151" y="711.577">includes</text><!--MD5=[54a3a53118662e446ee90302056b2c34]
-link sta to sys--><path d="M396.33,561.99 C436.2,571.78 486,584 486,584 C486,584 518.89,715.01 536.17,783.84 " fill="none" id="sta-sys" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[77e033e8e6ab9a8c104dd0ec3e07d58e]
-link ms to sys--><path d="M417.94,800.45 C455.51,807.62 499.13,815.96 524.69,820.83 " fill="none" id="ms-sys" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7b7546f5278d7d18d14509398c368d53]
-link ms to ssta--><path d="M346.5,765.67 C346.5,752.07 346.5,734.32 346.5,719.77 " fill="none" id="ms-to-ssta" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="346.5,714.57,342.5,723.57,346.5,719.57,350.5,723.57,346.5,714.57" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="311" y="744.827">includes</text><!--MD5=[78501573e44f418a60b2c25c1533931c]
-link ed to es--><path d="M88.51,1006.61 C125.1,1018.67 208,1046 208,1046 C208,1046 251.81,1058.11 289.97,1068.65 " fill="none" id="ed-es" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4a69ace38ddd0a9c45f3bd473bf1b720]
-link es to sys--><path d="M403.43,1068.65 C441.87,1058.11 486,1046 486,1046 C486,1046 517.77,929.96 535.26,866.05 " fill="none" id="es-sys" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[710457793a030514ff1bac6e83980af9]
-link au to pay--><path d="M91.21,1318 C124.77,1318 195.03,1318 253.22,1318 " fill="none" id="au-pay" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4304d6d2886fc74a1eb7f93c4377861c]
-link pay to sys--><path d="M405.43,1301.69 C443.39,1291 486,1279 486,1279 C486,1279 526.13,977.85 541.02,866.09 " fill="none" id="pay-sys" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d37cb303be860a3cb93a367a69e18f45]
-link sys to st--><path d="M524.64,829.06 C497.17,834.17 448.88,843.15 409.65,850.45 " fill="none" id="sys-st" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[400e9f8efd36f926129361d0642ab737]
-link auth to v--><path d="M105.97,427.22 C113.87,436.67 120,444 120,444 C120,444 200,690 200,690 C200,690 208,898 208,898 C208,898 253.03,910.12 291.55,920.48 " fill="none" id="auth-v" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ffc484ed6bb2d475aa4802ae0d9ef423]
-link gu to v--><path d="M104.2,796.1 C144.58,835.74 208,898 208,898 C208,898 253.03,910.12 291.55,920.48 " fill="none" id="gu-v" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[86be5b1d444be01d26464633e1302e66]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1706px" preserveAspectRatio="none" style="width:621px;height:1706px;" version="1.1" viewBox="0 0 621 1706" width="621px" zoomAndPan="magnify"><defs><filter height="300%" id="ftdj8moqub9fc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d1ca7584934d8a4509f08abca532e036]
+cluster Authorized Users--><polygon fill="#FFFFFF" filter="url(#ftdj8moqub9fc)" points="29,615,153,615,160,637.7999,163,637.7999,163,1099,29,1099,29,615" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="29" x2="160" y1="637.7999" y2="637.7999"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="118" x="33" y="630.0059">Authorized Users</text><!--MD5=[dce152449a59020d305e264c9b8346f3]
+cluster Content Management System (CMS)--><rect fill="#FFFFFF" filter="url(#ftdj8moqub9fc)" height="1670" style="stroke:#000000;stroke-width:1.5;" width="320" x="202" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="246" x="239" y="22.0059">Content Management System (CMS)</text><!--MD5=[a2a1127a9e0c3d5a4af797120761d109]
+entity ad--><ellipse cx="95.5" cy="893.5" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M95.5,901.5 L95.5,928.5 M82.5,909.5 L108.5,909.5 M95.5,928.5 L82.5,943.5 M95.5,928.5 L108.5,943.5 " fill="none" filter="url(#ftdj8moqub9fc)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="54" y="962.0059">administrator</text><!--MD5=[9ecb3888956f26bb589e19d843f9ffbb]
+entity ed--><ellipse cx="95.5" cy="1010.5" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M95.5,1018.5 L95.5,1045.5 M82.5,1026.5 L108.5,1026.5 M95.5,1045.5 L82.5,1060.5 M95.5,1045.5 L108.5,1060.5 " fill="none" filter="url(#ftdj8moqub9fc)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="77.5" y="1079.0059">editor</text><!--MD5=[6a66ad4cd3e5cd24129b6fd8af5c5a1e]
+entity ref--><ellipse cx="95.5" cy="776.5" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M95.5,784.5 L95.5,811.5 M82.5,792.5 L108.5,792.5 M95.5,811.5 L82.5,826.5 M95.5,811.5 L108.5,826.5 " fill="none" filter="url(#ftdj8moqub9fc)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="72.5" y="845.0059">referee</text><!--MD5=[e1532afab819f384a6963ac657a68e1b]
+entity au--><ellipse cx="95.5" cy="659.5" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M95.5,667.5 L95.5,694.5 M82.5,675.5 L108.5,675.5 M95.5,694.5 L82.5,709.5 M95.5,694.5 L108.5,709.5 " fill="none" filter="url(#ftdj8moqub9fc)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="75" y="728.0059">author</text><ellipse cx="362.052" cy="1564.0104" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="100.552" ry="22.5104" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="278.8029" y="1567.1398">request registration (FR1)</text><ellipse cx="361.8847" cy="57.8236" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="63.8847" ry="15.3236" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="323.3847" y="61.5766">login (FR2)</text><ellipse cx="362.2357" cy="147.0471" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="95.7357" ry="21.5471" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="283.2642" y="150.6241">change password (FR3)</text><ellipse cx="362.052" cy="226.0104" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="100.552" ry="22.5104" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="278.8029" y="229.1398">request submission (FR4)</text><ellipse cx="362.2475" cy="320.9495" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="92.7475" ry="20.9495" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="286.2475" y="324.7025">save submission (FR5)</text><ellipse cx="361.8036" cy="486.8607" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="89.8036" ry="20.3607" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="289.3036" y="490.6137">assign referees (FR6)</text><ellipse cx="362.0485" cy="396.2097" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="84.0485" ry="19.2097" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="296.5485" y="399.9627">notify referee (FR6)</text><ellipse cx="361.9808" cy="677.1962" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="91.4808" ry="20.6962" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="287.4808" y="680.9491">accept invitation (FR7)</text><ellipse cx="361.9051" cy="574.181" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="143.9051" ry="31.181" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="257" x="233.4051" y="576.787">save paper under referee account (FR7)</text><ellipse cx="362.0547" cy="861.1109" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="88.5547" ry="20.1109" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="291.0547" y="864.8639">evaluate paper (FR8)</text><ellipse cx="362.0544" cy="761.2109" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="131.5544" ry="28.7109" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="246.5544" y="763.8169">save paper and send to editor (FR8)</text><ellipse cx="362.1659" cy="1041.8332" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="99.6659" ry="22.3332" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="279.7037" y="1045.0449">make final decision (FR9)</text><ellipse cx="362.1971" cy="941.8394" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="114.6971" ry="25.3394" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="264.6971" y="944.4454">save and send to author (FR9)</text><ellipse cx="361.8245" cy="1224.8649" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="92.3245" ry="20.8649" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="286.3245" y="1228.6179">make schedule (FR10)</text><ellipse cx="362.2127" cy="1126.1425" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="121.2127" ry="26.6425" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="257.7127" y="1128.7485">send schedule to authors (FR10)</text><ellipse cx="361.814" cy="1485.8628" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="87.314" ry="19.8628" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="292.314" y="1489.6158">edit schedule (FR11)</text><ellipse cx="362.1713" cy="1410.0343" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="93.1713" ry="21.0343" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="285.6713" y="1413.7872">pay attendance (FR12)</text><ellipse cx="361.8396" cy="1308.7679" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="126.8396" ry="27.7679" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="221" x="251.3396" y="1311.3739">send payment confirmation (FR12)</text><ellipse cx="362.1732" cy="1641.0346" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="85.6732" ry="19.5346" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="294.6732" y="1644.7876">view CMS web page</text><!--MD5=[af7dc270c177ac064d9ce5d19439ad48]
+entity nu--><ellipse cx="95.5" cy="1512.5" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M95.5,1520.5 L95.5,1547.5 M82.5,1528.5 L108.5,1528.5 M95.5,1547.5 L82.5,1562.5 M95.5,1547.5 L108.5,1562.5 " fill="none" filter="url(#ftdj8moqub9fc)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="66.5" y="1581.0059">new user</text><!--MD5=[e29493a8775effcafa538aa0485107d1]
+entity auth--><ellipse cx="95.5" cy="526.5" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M95.5,534.5 L95.5,561.5 M82.5,542.5 L108.5,542.5 M95.5,561.5 L82.5,576.5 M95.5,561.5 L108.5,576.5 " fill="none" filter="url(#ftdj8moqub9fc)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="46" y="595.0059">authorized user</text><!--MD5=[ef2f3d6815c792d082a7c132eb1ade2f]
+entity sys--><ellipse cx="591.5" cy="685.5" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M591.5,693.5 L591.5,720.5 M578.5,701.5 L604.5,701.5 M591.5,720.5 L578.5,735.5 M591.5,720.5 L604.5,735.5 " fill="none" filter="url(#ftdj8moqub9fc)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="569" y="754.0059">system</text><!--MD5=[68ce7f9e5d6db1da1ccd8e8853009585]
+entity gu--><ellipse cx="95.5" cy="1629.5" fill="#FEFECE" filter="url(#ftdj8moqub9fc)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M95.5,1637.5 L95.5,1664.5 M82.5,1645.5 L108.5,1645.5 M95.5,1664.5 L82.5,1679.5 M95.5,1664.5 L108.5,1679.5 " fill="none" filter="url(#ftdj8moqub9fc)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="62" y="1698.0059">guest user</text><!--MD5=[a256ddcc105a8992fc8a35595ccffa22]
+reverse link auth to ad--><path d="M40.95,613.65 C29.6,625.23 21,634 21,634 C21,634 6,651.5 6,651.5 C6,651.5 6,848.5 6,848.5 C6,848.5 21,866 21,866 C21,866 36.83,878.54 53.89,892.05 " fill="none" id="auth-backto-ad" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="none" points="36.2,608.5,55.2,599.11,46.2,618.3,36.2,608.5" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[dd9cd6f9f69522a481ccf80374ddacc8]
+reverse link auth to ed--><path d="M40.95,613.65 C29.6,625.23 21,634 21,634 C21,634 6,651.5 6,651.5 C6,651.5 6,965.5 6,965.5 C6,965.5 21,983 21,983 C21,983 55.42,1010.26 77.47,1027.72 " fill="none" id="auth-backto-ed" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="none" points="36.2,608.5,55.2,599.11,46.2,618.3,36.2,608.5" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[d60ac93ac15ff8d1dcf0cf91dba360b7]
+reverse link auth to ref--><path d="M40.95,613.65 C29.6,625.23 21,634 21,634 C21,634 6,651.5 6,651.5 C6,651.5 6,731.5 6,731.5 C6,731.5 21,749 21,749 C21,749 50.47,772.34 72.34,789.66 " fill="none" id="auth-backto-ref" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="none" points="36.2,608.5,55.2,599.11,46.2,618.3,36.2,608.5" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[8e40c45abd2d93ace5c4fc717fabb535]
+reverse link auth to au--><path d="M95.5,619.26 C95.5,632.25 95.5,646.67 95.5,646.67 C95.5,646.67 95.5,647.86 95.5,649.86 " fill="none" id="auth-backto-au" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="none" points="88.5,619.15,95.5,599.14,102.5,619.14,88.5,619.15" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[9cd02b5a55e0b5d8ccc4c7a5e4cfef40]
+link nu to rr--><path d="M124.81,1546.14 C158.46,1548.68 216.36,1553.06 266.41,1556.85 " fill="none" id="nu-rr" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[1b370f963102bb73f6cda744c4daf23a]
+link rr to sys--><path d="M430.44,1547.44 C476.79,1536.06 530,1523 530,1523 C530,1523 575.09,922.32 587.42,758.08 " fill="none" id="rr-sys" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[c3c3d5c6e7bbd2ee87e44856ec0403f9]
+link auth to login--><path d="M105.41,516.87 C129.48,405.78 194,108 194,108 C194,108 271.59,84.77 321,69.98 " fill="none" id="auth-login" style="stroke:#778899;stroke-width:2.0;"/><!--MD5=[cc5647acd4aab21c0a85fad289259b35]
+link login to sys--><path d="M403,69.98 C452.41,84.77 530,108 530,108 C530,108 572.77,538.55 586.39,675.62 " fill="none" id="login-sys" style="stroke:#778899;stroke-width:2.0;"/><!--MD5=[c601586daf1ff9f0392dda66ee07f89b]
+link cp to login--><path d="M362,125.46 C362,111.38 362,93.08 362,79.09 " fill="none" id="cp-to-login" style="stroke:#A80036;stroke-width:2.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="362,73.77,358,82.77,362,78.77,366,82.77,362,73.77" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="320.5" y="104.077">«extends»</text><!--MD5=[376cd954ca9f45aee80387c87319fa6b]
+link cp to sys--><path d="M429,162.41 C475.68,173.32 530,186 530,186 C530,186 571.59,551.01 585.8,675.78 " fill="none" id="cp-sys" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[05a1a8f308e34ff330a33281bd77b8c5]
+link au to requestsubmit--><path d="M116.07,671.29 C138.15,649.07 171,616 171,616 C171,616 186,520 186,520 C186,520 194,282 194,282 C194,282 256.81,260.94 305.39,244.65 " fill="none" id="au-requestsubmit" style="stroke:#4B0082;stroke-width:2.0;"/><!--MD5=[167d29f11efe7f2c6b6e1d70294698e5]
+link requestsubmit to sys--><path d="M418.61,244.65 C467.19,260.94 530,282 530,282 C530,282 569.65,567.1 584.75,675.68 " fill="none" id="requestsubmit-sys" style="stroke:#4B0082;stroke-width:2.0;"/><!--MD5=[d9171c31583dd89a1c5bc985cd5c1b95]
+link ss to requestsubmit--><path d="M362,299.92 C362,286.38 362,268.65 362,253.95 " fill="none" id="ss-to-requestsubmit" style="stroke:#A80036;stroke-width:2.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="362,248.68,358,257.68,362,253.68,366,257.68,362,248.68" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="320.5" y="278.827">«extends»</text><!--MD5=[2cc3f695fe8118def67c41fcb1b7957a]
+link ss to sys--><path d="M428.04,335.8 C474.94,346.47 530,359 530,359 C530,359 567.67,581.9 583.56,675.93 " fill="none" id="ss-sys" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[66b5fe09ca82934201e6c23be87a67ca]
+link ed to ar--><path d="M113.78,1028.32 C135.79,1010.89 171,983 171,983 C171,983 194,525 194,525 C194,525 250.19,512.21 297.39,501.47 " fill="none" id="ed-ar" style="stroke:#00FF7F;stroke-width:2.0;"/><!--MD5=[32c80b6c17c1087d73075ee2d42f3959]
+link ad to ar--><path d="M137.24,892.74 C154.63,878.96 171,866 171,866 C171,866 185,630 185,630 C185,630 194,525 194,525 C194,525 250.19,512.21 297.39,501.47 " fill="none" id="ad-ar" style="stroke:#00FF7F;stroke-width:2.0;"/><!--MD5=[5e5d3007fafafa83a591fc8e5e687548]
+link ar to notifyref--><path d="M362,466.35 C362,452.62 362,434.53 362,420.14 " fill="none" id="ar-to-notifyref" style="stroke:#00FF7F;stroke-width:2.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00FF7F" points="362,415.02,358,424.02,362,420.02,366,424.02,362,415.02" style="stroke:#00FF7F;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="319.5" y="445.327">«includes»</text><!--MD5=[b1ccd89b0f41cacbb6a7b260df1411ca]
+link notifyref to sys--><path d="M411.75,411.47 C461.04,427.12 530,449 530,449 C530,449 564.21,600.54 581.18,675.71 " fill="none" id="notifyref-sys" style="stroke:#00FF7F;stroke-width:2.0;"/><!--MD5=[0adbc6bb1e4a6cbdca48412d96b69a13]
+link ref to acceptin--><path d="M118.85,790.3 C140.8,772.92 171,749 171,749 C171,749 194,715 194,715 C194,715 249.82,702.3 296.91,691.58 " fill="none" id="ref-acceptin" style="stroke:#0000FF;stroke-width:2.0;"/><!--MD5=[c0ebffcd338854d1dc80e9f57fc2c3ba]
+link acceptin to saveref--><path d="M362,656.16 C362,643.06 362,625.8 362,610.49 " fill="none" id="acceptin-to-saveref" style="stroke:#0000FF;stroke-width:2.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="362,605.38,358,614.38,362,610.38,366,614.38,362,605.38" style="stroke:#0000FF;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="319.5" y="635.327">«includes»</text><!--MD5=[bb12b30066303ea531be9f4fa5da9115]
+link saveref to sys--><path d="M432.86,601.19 C478.62,619 530,639 530,639 C530,639 551.61,666.86 569,689.28 " fill="none" id="saveref-sys" style="stroke:#0000FF;stroke-width:2.0;"/><!--MD5=[ae84fb110eb86438eeb1beebacaff9b4]
+link ref to ep--><path d="M118.6,812.43 C157.02,820.13 237.57,836.27 295.27,847.83 " fill="none" id="ref-ep" style="stroke:#FF4500;stroke-width:2.0;"/><!--MD5=[52f3928de31a6d2e369e8283797f60d7]
+link ep to sendeditor--><path d="M362,840.76 C362,827.53 362,809.94 362,794.63 " fill="none" id="ep-to-sendeditor" style="stroke:#FF4500;stroke-width:2.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF4500" points="362,789.54,358,798.54,362,794.54,366,798.54,362,789.54" style="stroke:#FF4500;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="319.5" y="819.827">«includes»</text><!--MD5=[222dd5f52c97a4a9a2f8fe593cbb59b3]
+link sendeditor to sys--><path d="M460.8,742.08 C501.02,734.31 543.96,726 568.96,721.17 " fill="none" id="sendeditor-sys" style="stroke:#FF4500;stroke-width:2.0;"/><!--MD5=[d56fa1dbd9ab95bef9d109985b20be70]
+link ed to md--><path d="M113.85,1042 C143.79,1042 207.25,1042 262.36,1042 " fill="none" id="ed-md" style="stroke:#FF1493;stroke-width:2.0;"/><!--MD5=[6b5b5e6a7432f6c9a598b8e7f6dd6e61]
+link ad to md--><path d="M137,949.92 C163.79,966.41 194,985 194,985 C194,985 257.61,1006.71 306.32,1023.34 " fill="none" id="ad-md" style="stroke:#FF1493;stroke-width:2.0;"/><!--MD5=[97922896b6f664de2ee35258a11ba4d2]
+link md to senddecauthor--><path d="M362,1019.31 C362,1005.66 362,988.09 362,973.15 " fill="none" id="md-to-senddecauthor" style="stroke:#FF1493;stroke-width:2.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FF1493" points="362,967.77,358,976.77,362,972.77,366,976.77,362,967.77" style="stroke:#FF1493;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="319.5" y="998.077">«includes»</text><!--MD5=[6c64b29362d8c62b8010b48caec0db73]
+link senddecauthor to sys--><path d="M436.73,922.57 C481.47,910.79 530,898 530,898 C530,898 558.92,811.47 576.77,758.07 " fill="none" id="senddecauthor-sys" style="stroke:#FF1493;stroke-width:2.0;"/><!--MD5=[77e033e8e6ab9a8c104dd0ec3e07d58e]
+link ms to sys--><path d="M415.38,1207.75 C464.36,1191.62 530,1170 530,1170 C530,1170 570.04,870.23 584.97,758.4 " fill="none" id="ms-sys" style="stroke:#DC143C;stroke-width:2.0;"/><!--MD5=[6b65dff8f8c0e34894c2068ce3f88eb1]
+link ms to sendschedauth--><path d="M362,1203.52 C362,1190.25 362,1172.97 362,1158.1 " fill="none" id="ms-to-sendschedauth" style="stroke:#DC143C;stroke-width:2.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#DC143C" points="362,1152.74,358,1161.74,362,1157.74,366,1161.74,362,1152.74" style="stroke:#DC143C;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="319.5" y="1182.827">«includes»</text><!--MD5=[78501573e44f418a60b2c25c1533931c]
+link ed to es--><path d="M106.39,1083.16 C131.17,1186.38 194,1448 194,1448 C194,1448 251.72,1461.13 299.29,1471.96 " fill="none" id="ed-es" style="stroke:#D2691E;stroke-width:2.0;"/><!--MD5=[457e5bcabcec72695aa69005bc9bc4a4]
+link ad to es--><path d="M137.24,956.72 C154.63,970.26 171,983 171,983 C171,983 194,1448 194,1448 C194,1448 251.72,1461.13 299.29,1471.96 " fill="none" id="ad-es" style="stroke:#D2691E;stroke-width:2.0;"/><!--MD5=[4a69ace38ddd0a9c45f3bd473bf1b720]
+link es to sys--><path d="M424.71,1471.96 C472.28,1461.13 530,1448 530,1448 C530,1448 574.33,912.42 587.1,758.13 " fill="none" id="es-sys" style="stroke:#D2691E;stroke-width:2.0;"/><!--MD5=[414c2b77596f5a9cb23665bccdbcb0b3]
+link auth to pay--><path d="M136.8,599.11 C154.36,617.02 171,634 171,634 C171,634 194,1354 194,1354 C194,1354 260.05,1376.15 309.08,1392.59 " fill="none" id="auth-pay" style="stroke:#00BFFF;stroke-width:2.0;"/><!--MD5=[b696cdf0328b4e3d7076b2018c764964]
+link pay to payconf--><path d="M362,1388.58 C362,1375.16 362,1357.58 362,1342.36 " fill="none" id="pay-to-payconf" style="stroke:#00BFFF;stroke-width:2.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00BFFF" points="362,1337.29,358,1346.29,362,1342.29,366,1346.29,362,1337.29" style="stroke:#00BFFF;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="319.5" y="1367.577">«includes»</text><!--MD5=[4fee822ad794d29da41a8b1f6d186d54]
+link payconf to sys--><path d="M442.1,1287.21 C485.26,1275.32 530,1263 530,1263 C530,1263 571.88,885.02 585.95,758.04 " fill="none" id="payconf-sys" style="stroke:#00BFFF;stroke-width:2.0;"/><!--MD5=[7888cbad01cb05c883d38aaa03deb912]
+link gu to viewpage--><path d="M129.2,1658.53 C166.79,1655.68 229.86,1650.92 280.73,1647.07 " fill="none" id="gu-viewpage" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[e8a06ee6e312e3cfe9e0dee815fb6fab]
 @startuml
 left to right direction
 skinparam linetype  polyline
+'scale 2
+'scale 1080 width
+skinparam arrowThickness 2
+
 actor "new user" as nu
 actor "authorized user" as auth
-actor administrator as ad
-actor editor as ed
-actor referee as ref
-actor author as au
+
+package "Authorized Users" {
+  actor administrator as ad
+  actor editor as ed
+  actor referee as ref
+  actor author as au
+  ad -left-|> auth
+  ed -left-|> auth
+  ref -left-|> auth
+  au -left-|> auth
+}
+
 actor system as sys
 
 
-ad -left-|> auth
-ed -left-|> auth
-ref -left-|> auth
-author -left-|> auth
 
 actor "guest user" as gu
 rectangle "Content Management System (CMS)" {
   usecase "request registration (FR1)" as rr
+
   usecase "login (FR2)" as login
+
   usecase "change password (FR3)" as cp
-  usecase "request submission (FR4)" as submit
+
+  usecase "request submission (FR4)" as requestsubmit
+
   usecase "save submission (FR5)" as ss
+
   usecase "assign referees (FR6)" as ar
-  usecase "save referee (FR7)" as sr
+  usecase "notify referee (FR6)" as notifyref
+
+  usecase "accept invitation (FR7)" as acceptin
+  usecase "save paper under referee account (FR7)" as saveref
+
   usecase "evaluate paper (FR8)" as ep
-  usecase "make decision (FR9)" as md
+  usecase "save paper and send to editor (FR8)" as sendeditor
+
+  usecase "make final decision (FR9)" as md
+  usecase "save and send to author (FR9)" as senddecauthor
+
   usecase "make schedule (FR10)" as ms
+  usecase "send schedule to authors (FR10)" as sendschedauth
+
   usecase "edit schedule (FR11)" as es
+
   usecase "pay attendance (FR12)" as pay
+  usecase "send payment confirmation (FR12)" as payconf
 
 
-  usecase "visit CMS web page" as v
-  usecase "view assigned review tasks" as vart
-  usecase "manage referee tasks" as manage
-  usecase "assign referees" as ar
-  usecase "accept invitation to review" as air
-  usecase "send to editor" as ste
-  usecase "send to author" as sta
-  usecase "send schedule to author" as ssta
-  usecase "send ticket to user" as st
+  usecase "view CMS web page" as viewpage
+
+
 }
 
+'should have more than 12 use cases (some functional requrements may have more than one use case)'
 
 '1'
 nu - - rr
 rr - - sys
 
 '2'
-auth - - login
+auth -[#lightslategrey]- login
+login -[#lightslategrey]- sys
 
 '3'
-cp .> login : extends
-cp -= sys
+cp .> login : <<extends>>
+cp - - sys
 
 '4'
-au - - submit
+'this one should be complete'
+au -[#indigo]- requestsubmit
+requestsubmit -[#indigo]- sys
 
 '5'
-au - - ss
+ss .> requestsubmit : <<extends>>
 ss - - sys
 
 '6'
-ed - - ar
-ad - - ar
+ed -[#springgreen]- ar
+ad -[#springgreen]- ar
+ar .[#springgreen]> notifyref : <<includes>>
+notifyref -[#springgreen]- sys
 
 '7'
-ref - - air
-air .> sr : includes
-sr - - sys
+ref -[#blue]- acceptin
+acceptin .[#blue]> saveref : <<includes>>
+saveref -[#blue]- sys
 
 '8'
-ref - - ep
-ep .> ste : includes
-ste - - sys
+ref -[#orangered]- ep
+ep .[#orangered]> sendeditor : <<includes>>
+sendeditor -[#orangered]- sys
 
 '9'
-ed - - md
-ad - - md
-md .> sta : includes
-sta - - sys
-
+ed -[#deeppink]- md
+ad -[#deeppink]- md
+md .[#deeppink]> senddecauthor : <<includes>>
+senddecauthor -[#deeppink]- sys
 
 '10'
-ms - - sys
-ms .> ssta : includes
+ms -[#crimson]- sys
+ms .[#crimson]> sendschedauth : <<includes>>
 
 '11'
-ed - - es
-es - - sys
+ed -[#chocolate]- es
+ad -[#chocolate]- es
+es -[#chocolate]- sys
 
 '12'
-au - - pay
-pay - - sys
-sys - - st
+auth -[#deepskyblue]- pay
+pay .[#deepskyblue]> payconf : <<includes>>
+payconf -[#deepskyblue]- sys
 
-
-auth - - v
-gu - - v
+'other'
+gu - - viewpage
 
 @enduml
 
 @startuml
 left to right direction
 skinparam linetype  polyline
+skinparam arrowThickness 2
+
 actor "new user" as nu
 actor "authorized user" as auth
-actor administrator as ad
-actor editor as ed
-actor referee as ref
-actor author as au
+
+package "Authorized Users" {
+  actor administrator as ad
+  actor editor as ed
+  actor referee as ref
+  actor author as au
+  ad -left-|> auth
+  ed -left-|> auth
+  ref -left-|> auth
+  au -left-|> auth
+}
+
 actor system as sys
 
 
-ad -left-|> auth
-ed -left-|> auth
-ref -left-|> auth
-author -left-|> auth
 
 actor "guest user" as gu
 rectangle "Content Management System (CMS)" {
   usecase "request registration (FR1)" as rr
+
   usecase "login (FR2)" as login
+
   usecase "change password (FR3)" as cp
-  usecase "request submission (FR4)" as submit
+
+  usecase "request submission (FR4)" as requestsubmit
+
   usecase "save submission (FR5)" as ss
+
   usecase "assign referees (FR6)" as ar
-  usecase "save referee (FR7)" as sr
+  usecase "notify referee (FR6)" as notifyref
+
+  usecase "accept invitation (FR7)" as acceptin
+  usecase "save paper under referee account (FR7)" as saveref
+
   usecase "evaluate paper (FR8)" as ep
-  usecase "make decision (FR9)" as md
+  usecase "save paper and send to editor (FR8)" as sendeditor
+
+  usecase "make final decision (FR9)" as md
+  usecase "save and send to author (FR9)" as senddecauthor
+
   usecase "make schedule (FR10)" as ms
+  usecase "send schedule to authors (FR10)" as sendschedauth
+
   usecase "edit schedule (FR11)" as es
+
   usecase "pay attendance (FR12)" as pay
+  usecase "send payment confirmation (FR12)" as payconf
 
 
-  usecase "visit CMS web page" as v
-  usecase "view assigned review tasks" as vart
-  usecase "manage referee tasks" as manage
-  usecase "assign referees" as ar
-  usecase "accept invitation to review" as air
-  usecase "send to editor" as ste
-  usecase "send to author" as sta
-  usecase "send schedule to author" as ssta
-  usecase "send ticket to user" as st
+  usecase "view CMS web page" as viewpage
+
+
 }
 
 
 nu - - rr
 rr - - sys
 
-auth - - login
+auth -[#lightslategrey]- login
+login -[#lightslategrey]- sys
 
-cp .> login : extends
-cp -= sys
+cp .> login : <<extends>>
+cp - - sys
 
-au - - submit
+au -[#indigo]- requestsubmit
+requestsubmit -[#indigo]- sys
 
-au - - ss
+ss .> requestsubmit : <<extends>>
 ss - - sys
 
-ed - - ar
-ad - - ar
+ed -[#springgreen]- ar
+ad -[#springgreen]- ar
+ar .[#springgreen]> notifyref : <<includes>>
+notifyref -[#springgreen]- sys
 
-ref - - air
-air .> sr : includes
-sr - - sys
+ref -[#blue]- acceptin
+acceptin .[#blue]> saveref : <<includes>>
+saveref -[#blue]- sys
 
-ref - - ep
-ep .> ste : includes
-ste - - sys
+ref -[#orangered]- ep
+ep .[#orangered]> sendeditor : <<includes>>
+sendeditor -[#orangered]- sys
 
-ed - - md
-ad - - md
-md .> sta : includes
-sta - - sys
+ed -[#deeppink]- md
+ad -[#deeppink]- md
+md .[#deeppink]> senddecauthor : <<includes>>
+senddecauthor -[#deeppink]- sys
 
+ms -[#crimson]- sys
+ms .[#crimson]> sendschedauth : <<includes>>
 
-ms - - sys
-ms .> ssta : includes
+ed -[#chocolate]- es
+ad -[#chocolate]- es
+es -[#chocolate]- sys
 
-ed - - es
-es - - sys
+auth -[#deepskyblue]- pay
+pay .[#deepskyblue]> payconf : <<includes>>
+payconf -[#deepskyblue]- sys
 
-au - - pay
-pay - - sys
-sys - - st
-
-
-auth - - v
-gu - - v
+gu - - viewpage
 
 @enduml
 

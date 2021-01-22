@@ -1,102 +1,126 @@
 @startuml
 left to right direction
 skinparam linetype  polyline
+'scale 2
+'scale 1080 width
+skinparam arrowThickness 2
+
 actor "new user" as nu
 actor "authorized user" as auth
-actor administrator as ad
-actor editor as ed
-actor referee as ref
-actor author as au
+
+package "Authorized Users" {
+  actor administrator as ad
+  actor editor as ed
+  actor referee as ref
+  actor author as au
+  ad -left-|> auth
+  ed -left-|> auth
+  ref -left-|> auth
+  au -left-|> auth
+}
+
 actor system as sys
 
 
-ad -left-|> auth
-ed -left-|> auth
-ref -left-|> auth
-author -left-|> auth
 
 actor "guest user" as gu
 rectangle "Content Management System (CMS)" {
   usecase "request registration (FR1)" as rr
+
   usecase "login (FR2)" as login
+
   usecase "change password (FR3)" as cp
-  usecase "request submission (FR4)" as submit
+
+  usecase "request submission (FR4)" as requestsubmit
+
   usecase "save submission (FR5)" as ss
+
   usecase "assign referees (FR6)" as ar
-  usecase "save referee (FR7)" as sr
+  usecase "notify referee (FR6)" as notifyref
+
+  usecase "accept invitation (FR7)" as acceptin
+  usecase "save paper under referee account (FR7)" as saveref
+
   usecase "evaluate paper (FR8)" as ep
-  usecase "make decision (FR9)" as md
+  usecase "save paper and send to editor (FR8)" as sendeditor
+
+  usecase "make final decision (FR9)" as md
+  usecase "save and send to author (FR9)" as senddecauthor
+
   usecase "make schedule (FR10)" as ms
+  usecase "send schedule to authors (FR10)" as sendschedauth
+
   usecase "edit schedule (FR11)" as es
+
   usecase "pay attendance (FR12)" as pay
+  usecase "send payment confirmation (FR12)" as payconf
 
 
-  usecase "visit CMS web page" as v
-  usecase "view assigned review tasks" as vart
-  usecase "manage referee tasks" as manage
-  usecase "assign referees" as ar
-  usecase "accept invitation to review" as air
-  usecase "send to editor" as ste
-  usecase "send to author" as sta
-  usecase "send schedule to author" as ssta
-  usecase "send ticket to user" as st
+  usecase "view CMS web page" as viewpage
+
+
 }
 
+'should have more than 12 use cases (some functional requrements may have more than one use case)'
 
 '1'
 nu -- rr
 rr -- sys
 
 '2'
-auth -- login
+auth -[#lightslategrey]- login
+login -[#lightslategrey]- sys
 
 '3'
-cp .> login : extends
-cp -= sys
+cp .> login : <<extends>>
+cp -- sys
 
 '4'
-au -- submit
+'this one should be complete'
+au -[#indigo]- requestsubmit
+requestsubmit -[#indigo]- sys
 
 '5'
-au -- ss
+ss .> requestsubmit : <<extends>>
 ss -- sys
 
 '6'
-ed -- ar
-ad -- ar
+ed -[#springgreen]- ar
+ad -[#springgreen]- ar
+ar .[#springgreen]> notifyref : <<includes>>
+notifyref -[#springgreen]- sys
 
 '7'
-ref -- air
-air .> sr : includes
-sr -- sys
+ref -[#blue]- acceptin
+acceptin .[#blue]> saveref : <<includes>>
+saveref -[#blue]- sys
 
 '8'
-ref -- ep
-ep .> ste : includes
-ste -- sys
+ref -[#orangered]- ep
+ep .[#orangered]> sendeditor : <<includes>>
+sendeditor -[#orangered]- sys
 
 '9'
-ed -- md
-ad -- md
-md .> sta : includes
-sta -- sys
-
+ed -[#deeppink]- md
+ad -[#deeppink]- md
+md .[#deeppink]> senddecauthor : <<includes>>
+senddecauthor -[#deeppink]- sys
 
 '10'
-ms -- sys
-ms .> ssta : includes
+ms -[#crimson]- sys
+ms .[#crimson]> sendschedauth : <<includes>>
 
 '11'
-ed -- es
-es -- sys
+ed -[#chocolate]- es
+ad -[#chocolate]- es
+es -[#chocolate]- sys
 
 '12'
-au -- pay
-pay -- sys
-sys -- st
+auth -[#deepskyblue]- pay
+pay .[#deepskyblue]> payconf : <<includes>>
+payconf -[#deepskyblue]- sys
 
-
-auth -- v
-gu -- v
+'other'
+gu -- viewpage
 
 @enduml
