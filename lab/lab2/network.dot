@@ -1,6 +1,7 @@
 digraph {
     rankdir=LR;
     node [ shape=record ]
+
     subgraph cluster_11 {
       graph[style=dotted];
       label = "FR1"
@@ -172,4 +173,11 @@ digraph {
     612 -> 621
     224 -> 211
     315 -> 411
+    115 -> 211
+    614 -> 713
+    323 -> 411
+#    622 -> 615
+    524 -> 713
+    615 -> End
+    622 -> End
 }
