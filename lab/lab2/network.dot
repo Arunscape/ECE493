@@ -1,6 +1,7 @@
 digraph {
     rankdir=LR;
     node [ shape=rect ]
+    splines=polyline
 
 
     subgraph cluster_authentication {
@@ -37,7 +38,7 @@ digraph {
         313 [label="3.1.3 Validate fields in form, ensure they follow system rules\n(e.g. email addresses, blanks, valid file formats, file size)\nand show success or error message"]
         322 [label="3.2.2 Check fields for validity and inform user of violation"]
         412 [label="4.1.2 Validate form, display success or error message (e.g. 3 reviewers)"]
-    714 [label="7.1.4 Verify payment information"]
+        714 [label="7.1.4 Verify payment information"]
     }
 
     subgraph cluster_notification {
@@ -49,6 +50,7 @@ digraph {
         615 [label="6.1.5 Send schedule to authors of accepted papers"]
         717 [label="7.1.7 Send user confirmation of purchase and ticket"]
         711 [label="7.1.1 Announce prices on CMS web page\n(available to guests and authorized users)"]
+        614 [label="6.1.4 Announce schedule on CMS webpage"]
     }
 
     subgraph cluster_database {
@@ -73,7 +75,6 @@ digraph {
         label="Schedule"
         611 [label="6.1.1 Implement scheduling algorithm X"]
         612 [label="6.1.2 Convert schedule to HTML format"]
-        614 [label="6.1.4 Announce schedule on CMS webpage"]
     }
 
     subgraph cluster_payment {
@@ -81,5 +82,14 @@ digraph {
         label="Payment"
         716 [label="7.1.6 Charge user's credit card"]
     }
+
+    Start -> 611 -> 612
+    Start -> 111 -> 112
+    111 -> 221
+    112 -> 221 -> 224
+    211 -> 115
+    111 -> 211
+    221 -> 212
+    111 -> 113
 
 }
