@@ -6,34 +6,41 @@ digraph {
 
     subgraph cluster_authentication {
         graph[style=dotted]
-        label="Authentication"
+        label="Authentication (Week 4):\n(The reasoning here is that the database\nhas to be built first, and the functionality\ncan be made first, with authentication checks built after)"
         311 [label="3.1.1 Ensure user is registered and logged in"]
         712 [label="7.1.2 Check if user is authorized"]
     }
 
     subgraph cluster_ui {
         graph[style=dotted]
-        label="User Interface"
+        label="User Interface (Week 1)"
         111 [label="1.1.1 Create registration form UI"]
         211 [label="2.1.1 Create UI for entering username and password"]
         221 [label="2.2.1 Create UI for user to change password"]
         312 [label="3.1.2 Create UI for submitting manuscripts"]
         321 [label="3.2.1 Create save button interface"]
         411 [label="4.1.1 Create UI for editor to assign referees to submitted papers\nusing referees' email addresses"]
-        112 [label="1.1.2 Redirect user to registration form"]
-        115 [label="1.1.5 Redirect user to login screen"]
-        213 [label="2.1.3 Redirect user to home page"]
-        224 [label="2.2.4 Redirect user to login page\n(so they can log in with the new password)"]
-        315 [label="3.1.5 Redirect user to home page"]
-        411 [label="4.2.2 Redirect referee to account, where paper is stored under"]
         522 [label="5.2.2 Create UI for editor to make final decision"]
         621 [label="6.2.1 Create UI for editor/admin to edit schedule"]
         713 [label="7.1.3 Create UI to prompt user to pay for attending and choose registration type"]
     }
 
+
+    subgraph cluster_redirect {
+        graph[style=dotted]
+        label="Redirects (Week 5)"
+        112 [label="1.1.2 Redirect user to registration form"]
+        115 [label="1.1.5 Redirect user to login screen"]
+        213 [label="2.1.3 Redirect user to home page"]
+        224 [label="2.2.4 Redirect user to login page\n(so they can log in with the new password)"]
+        315 [label="3.1.5 Redirect user to home page"]
+        422 [label="4.2.2 Redirect referee to account, where paper is stored under"]
+        525 [label="5.2.5 Redirect editor to home page"]
+    }
+
     subgraph cluster_formvalidation {
         graph[style=dotted]
-        label="Form Validation"
+        label="Form Validation (Week 2)"
         113 [label="1.1.3 Verify user input in form\n(verify email is unique and password follows security standards.\nIf not, show error message)"]
         313 [label="3.1.3 Validate fields in form, ensure they follow system rules\n(e.g. email addresses, blanks, valid file formats, file size)\nand show success or error message"]
         322 [label="3.2.2 Check fields for validity and inform user of violation"]
@@ -41,21 +48,14 @@ digraph {
         714 [label="7.1.4 Verify payment information"]
     }
 
-    subgraph cluster_notification {
-        graph[style=dotted]
-        label="Notifications"
-        414 [label="4.1.4 Notify referee of assignment in form of a review invitation"]
-        524 [label="5.2.4 Send editor's decision to author"]
-        613 [label="6.1.3 Send schedule to editor to be checked or modified"]
-        615 [label="6.1.5 Send schedule to authors of accepted papers"]
-        717 [label="7.1.7 Send user confirmation of purchase and ticket"]
-        711 [label="7.1.1 Announce prices on CMS web page\n(available to guests and authorized users)"]
-        614 [label="6.1.4 Announce schedule on CMS webpage"]
-    }
+    #subgraph cluster_notification {
+    #    graph[style=dotted]
+    #    label="Notifications (Week 5)"
+    #}
 
     subgraph cluster_database {
         graph[style=dotted]
-        label="Database"
+        label="Database (Weeks 3-4)"
         114 [label="1.1.4 Store user email and password in database"]
         212 [label="2.1.2 Compare username and password to database and provide or deny access."]
         323 [label="3.2.3 Save partial information of paper in database"]
@@ -64,32 +64,50 @@ digraph {
         314 [label="3.1.4 Store information in database"]
         413 [label="4.1.3 Check if reviewer has more than 5 assigned papers"]
         421 [label="4.2.1 When referee accepts, put the paper under the referee's account\nif less than 3 referees are already reviewing\nelse inform editor"]
+    414 [label="4.1.4 Notify referee of assignment in form of a review invitation"]
         521 [label="5.2.1 Check if all review forms are ready"]
         523 [label="5.2.3 Save editor's decision to database"]
         622 [label="6.2.2 Update database with new schedule as final version"]
         715 [label="7.1.5 Store payment information in database"]
+    524 [label="5.2.4 Send editor's decision to author"]
+        711 [label="7.1.1 Announce prices on CMS web page\n(available to guests and authorized users)"]
     }
 
     subgraph cluster_schedule {
         graph[style=dotted]
-        label="Schedule"
+        label="Schedule: (Weeks 1-3, Latest start: Week 3, Should take 1 week to complete)"
         611 [label="6.1.1 Implement scheduling algorithm X"]
         612 [label="6.1.2 Convert schedule to HTML format"]
+        613 [label="6.1.3 Send schedule to editor to be checked or modified"]
+        614 [label="6.1.4 Announce schedule on CMS webpage"]
+        615 [label="6.1.5 Send schedule to authors of accepted papers"]
     }
 
     subgraph cluster_payment {
         graph[style=dotted]
-        label="Payment"
+        label="Payment (Week 5)"
         716 [label="7.1.6 Charge user's credit card"]
+    717 [label="7.1.7 Send user confirmation of purchase and ticket"]
     }
 
-    Start -> 611 -> 612
-    Start -> 111 -> 112
-    111 -> 221
-    112 -> 221 -> 224
-    211 -> 115
-    111 -> 211
-    221 -> 212
-    111 -> 113
+
+    Start -> 611 -> 612 -> 613 -> 614 -> End
+    613 -> 615 -> End
+    Start -> 111 -> 113 -> 114 -> 112 -> End
+    114 -> 115 -> End
+    Start -> 211 -> 212 -> 213 -> End
+    Start -> 221 -> 222 -> 223 -> 224 -> End
+    Start -> 312 -> 313 -> 314 -> 311 -> 315 -> End
+    Start -> 321 -> 322 -> 323 -> 314
+    Start -> 522 -> 521 -> 523 -> 524 -> 525 -> End
+    Start -> 621 -> 622 -> 613
+    Start -> 713 -> 714 -> 715 -> 712:w
+    712:e -> 716 -> 717 -> End
+    Start -> 411 -> 412 -> 413 -> 414 -> 421 -> 422 -> End
+    Start -> 711 -> End
+
+
+
+
 
 }
