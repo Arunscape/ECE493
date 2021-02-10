@@ -1,0 +1,31 @@
+@startuml
+
+actor "editor/administrator" as editor
+actor reviewer
+participant ReviewPaper
+database database as db
+
+reviewer -> ReviewPaper : access review form
+activate reviewer
+
+ReviewPaper -> db : get paper
+activate ReviewPaper
+ReviewPaper <-- db : paper
+activate db
+reviewer <- ReviewPaper : send form
+reviewer -> ReviewPaper : submit form
+
+alt form is valid
+    ReviewPaper -> db : save form/paper
+    ReviewPaper <-- db : ok
+    deactivate db
+    ReviewPaper -> editor : send to editor
+    activate editor
+    deactivate editor
+    reviewer <-- ReviewPaper : success
+else form is invalid
+     reviewer <-- ReviewPaper : show error
+end
+deactivate reviewer
+deactivate ReviewPaper
+@enduml

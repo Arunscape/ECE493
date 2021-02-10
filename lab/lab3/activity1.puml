@@ -1,0 +1,20 @@
+@startuml
+start
+
+:login;
+
+:request submission;
+
+repeat :fill submission form;
+
+:browse file;
+
+repeat while (form is valid?) is (no)
+->yes;
+
+:store in database;
+
+end
+
+
+@enduml

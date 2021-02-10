@@ -1,0 +1,21 @@
+#+TITLE: Laboratory Exercise #2
+#+Author: Arun Woosaree
+
+#+LaTeX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [letterpaper]
+#+LaTeX_HEADER: \usepackage{svg}
+#+OPTIONS: toc:nil
+
+
+# lol orgmode does not like the bullet points
+
+#+include: "workbreakdown.puml" src plantuml :file workbreakdown.svg
+
+
+# this is messy let's omit the verify password and validate form
+#+begin_comment
+#+begin_src plantuml :file usecase.svg
+#+end_src
+
+#+RESULTS:
+[[file:usecase.svg]]
