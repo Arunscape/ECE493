@@ -1,20 +1,45 @@
 @startuml
+|ui|
 start
-
 :login;
 
-:request submission;
+|client/domain|
+:send credentials;
 
-repeat :fill submission form;
+|server/db|
+:verify credentials;
 
+|ui|
+:submit manuscript;
+
+|client/domain|
+:get submission form;
+
+|ui|
+repeat :fill submission form\nauthor name\naffiliations\nauthors\norder\npaper\nscope\npaper type\nabstract\nkeywords;
 :browse file;
 
-repeat while (form is valid?) is (no)
-->yes;
+|client/domain|
+fork
+    :validate fields;
+fork again
+    :upload file;
+end fork
 
+
+repeat while (form is valid?\nfields not blank\nPDF,Word\nLaTeX,filesize<=7MB) is (no, show red error message)
+-> yes;
+
+|ui|
+:submit form;
+
+|client/domain|
+:send form to backend;
+
+|server/db|
 :store in database;
 
-end
-
+|ui|
+stop
 
 @enduml

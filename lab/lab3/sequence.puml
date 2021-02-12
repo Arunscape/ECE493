@@ -8,10 +8,10 @@ database database as db
 reviewer -> ReviewPaper : access review form
 activate reviewer
 
-ReviewPaper -> db : get paper
 activate ReviewPaper
-ReviewPaper <-- db : paper
+ReviewPaper -> db : get paper
 activate db
+ReviewPaper <-- db : paper
 reviewer <- ReviewPaper : send form
 reviewer -> ReviewPaper : submit form
 
