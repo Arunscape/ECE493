@@ -3,23 +3,23 @@
 start
 :login;
 
-|client/domain|
-:send credentials;
-
-|server/db|
+|server|
 :verify credentials;
+
+|db|
+:get credentials;
 
 |ui|
 :submit manuscript;
 
-|client/domain|
-:get submission form;
+'|server|
+'':get submission form;
 
 |ui|
 repeat :fill submission form\nauthor name\naffiliations\nauthors\norder\npaper\nscope\npaper type\nabstract\nkeywords;
 :browse file;
 
-|client/domain|
+|server|
 fork
     :validate fields;
 fork again
@@ -33,11 +33,11 @@ repeat while (form is valid?\nfields not blank\nPDF,Word\nLaTeX,filesize<=7MB) i
 |ui|
 :submit form;
 
-|client/domain|
+|server|
 :send form to backend;
 
-|server/db|
-:store in database;
+|db|
+:store form in database;
 
 |ui|
 stop

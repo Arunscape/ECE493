@@ -1,0 +1,56 @@
+@startuml
+|ui|
+start
+:login;
+
+|server|
+:verify credentials;
+
+|db|
+:get credentials;
+
+|ui|
+:make a final decision;
+
+|server|
+fork
+    :get list of submitted papers;
+    |db|
+    :query get submitted papers;
+fork again
+     |server|
+     :get active;
+     |db|
+     :query filter papers with three reviews;
+end fork
+
+|ui|
+:click on an active paper;
+
+|server|
+:get reviewer comments from db;
+
+|db|
+:query get reviewer comments;
+
+|server|
+:redirect ui to reviewer comments page;
+
+|ui|
+:Accept or Reject;
+:confirm;
+
+|server|
+:save editor choice in db;
+
+|db|
+:save editor choice;
+
+|server|
+:send editor decision to authors;
+
+
+|ui|
+stop
+
+@enduml
