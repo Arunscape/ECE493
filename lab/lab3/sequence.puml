@@ -1,31 +1,31 @@
 @startuml
 
-actor "editor/administrator" as editor
 actor reviewer
-participant ReviewPaper
+participant Server
 database database as db
+actor "editor/administrator" as editor
 
-reviewer -> ReviewPaper : access review form
+reviewer -> Server : access review form
 activate reviewer
 
-activate ReviewPaper
-ReviewPaper -> db : get paper
+activate Server
+Server -> db : get paper
 activate db
-ReviewPaper <-- db : paper
-reviewer <- ReviewPaper : send form
-reviewer -> ReviewPaper : submit form
+Server <-- db : paper
+reviewer <- Server : send form
+reviewer -> Server : submit form
 
 alt form is valid
-    ReviewPaper -> db : save form/paper
-    ReviewPaper <-- db : ok
+    Server -> db : save form/paper
+    Server <-- db : ok
     deactivate db
-    ReviewPaper -> editor : send to editor
+    Server -> editor : send to editor
     activate editor
     deactivate editor
-    reviewer <-- ReviewPaper : success
+    reviewer <-- Server : success
 else form is invalid
-     reviewer <-- ReviewPaper : show error
+     reviewer <-- Server : show error
 end
 deactivate reviewer
-deactivate ReviewPaper
+deactivate Server
 @enduml

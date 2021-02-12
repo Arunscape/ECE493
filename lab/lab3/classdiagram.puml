@@ -1,0 +1,141 @@
+@startuml
+
+class User {
+      +email
+      +username
+      +id
+      -password
+      +register(username: string, password: string, email: string)
+      +login(username: string, password: string)
+      +change_password(old_password: string, new_password: string)
+      +purchase_ticket(credit_card_details: string)
+      -db: DatabaseHelper
+}
+
+class "Administrator/Editor" {
+      +assign_reviewer(referee_email: string, paper: Paper)
+      -check_if_3_viewers_assigned(paper: Paper)
+      -check_if_3_review_forms_ready(paper: Paper)
+      +make_decision(decision: string, paper: Paper)
+      +edit_schedule(schedule: Schedule)
+      +verify_form()
+}
+
+Schedule o-- Event
+class Event {
+      +id: string
+      +time: date
+      +room: string
+}
+"Administrator/Editor" -- Schedule
+
+User <|-- "Administrator/Editor"
+
+class Author {
+      +submit_paper(paper: Paper)
+      +save_submission(paper: Paper)
+}
+User <|-- Author
+Author -- Paper
+Reviewer -- Paper
+"Administrator/Editor" -- Paper
+Author -- Schedule
+
+class Reviewer {
+      +accept_invitation()
+      +verify_assigned_papers_less_than_five()
+      +review_paper(paper: Paper, form: string)
+      -check_if_5_papers_assigned()
+}
+User <|-- Reviewer
+
+class DatabaseHelper {
+      -db_connection
+      +register_user(user: User)
+      +verify_credentials(user: User, password: string)
+      +change_password(user: User, old_password: string, new_password: string)
+      +save_ticket_purchase(transaction: Ticket)
+      +get_reviewers(paper_id: string)
+      +get_papers_to_review(reviewer_id: string)
+      +save_schedule(schedule: Schedule)
+      +edit_schedule(schedule: Schedule)
+      +save_reviewers_form(paper_id: string, form: string)
+      +save_editor_decision(paper_id: string, decision: string)
+      +save_paper(paper: Paper)
+      +assign_reviewer(reviewer_id: string, paper: Paper)
+      +get_list_of_submitted_papers()
+      +get_papers_with_three_reviews()
+      +get_reviewer_comments(paper_id: string)
+      +get_active_papers()
+}
+
+
+class Paper {
+      +id: string
+      +main_source: string
+      +paper: PaperFile
+      +authors: [PaperAuthors]
+      +abstract: string
+      +keywords: [string]
+      +save_to_database()
+      +verify_form()
+      -db: DatabaseHelper
+}
+Paper *-- PaperFile
+PaperFile *-- PaperTypes
+Paper o-- PaperAuthors
+Schedule -- Paper
+
+enum PaperTypes {
+     PDF
+     Word
+     LaTeX
+}
+
+class PaperFile{
+      filetype: PaperTypes
+      file: blob
+}
+
+class PaperAuthors{
+      +contact_info: string
+      +name: string
+      +affiliation: string
+}
+
+
+class Schedule {
+      +events: [Event]
+      +html_schedule: html
+      +send_schedule_to_authors()
+      +make_schedule_with_algorithm_X()
+      +save_schedule_to_database()
+      +edit_schedule()
+      -db: DatabaseHelper
+}
+
+class Ticket {
+      +confirmation: Confirmation
+      +send_user_email_confirmation(user: User)
+      -db: DatabaseHelper
+}
+
+class Confirmation{
+      +id: string
+      +date: date
+      +payment_info: string
+      +price: float
+      +schedule: Schedule
+}
+
+Ticket *-- Confirmation
+Schedule -- Ticket
+User o-- Ticket
+
+
+User -- DatabaseHelper
+Schedule -- DatabaseHelper
+Ticket -- DatabaseHelper
+Paper -- DatabaseHelper
+
+@enduml

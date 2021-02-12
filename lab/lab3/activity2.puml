@@ -4,10 +4,10 @@ start
 :login;
 
 |server|
-:verify credentials;
+:login;
 
 |db|
-:get credentials;
+:verify credentials;
 
 |ui|
 :make a final decision;

@@ -4,13 +4,13 @@ start
 :login;
 
 |server|
-:verify credentials;
+:login;
 
 |db|
-:get credentials;
+:verify_credentials;
 
 |ui|
-:submit manuscript;
+:submit paper;
 
 '|server|
 '':get submission form;
